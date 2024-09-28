@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard Tailwind 3</title>
+    <link rel="shortcut icon" href="assests/logo/images.png" type="image/x-icon">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="src/output.css">
+</head>
+
+<body class="w-screen h-screen">
+    <div class="flex bg-customcolor4">
+        <div class="h-auto w-[15%] md:w-[6%] bg-customcolor1">
+            <div class="border-b-2 h-20 pt-5 md:pt-2 border-customcolor2">
+                <img class="md:w-auto w-10  rounded-full md:mt-auto md:h-16 h-auto  mx-auto"
+                    src="assests/logo/logo no bg.png" alt="">
+            </div>
+
+            <div class=" space-y-40">
+                <div class="mx-auto space-y-9 p-4 md:p-6 ">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                        stroke="currentColor" class="size-4 md:size-6 hover:bg-customcolor4 hover:rounded-full  cursor-pointer">
+                        <path stroke-linecap="round" stroke-linejoin="round"
+                            d="M2.25 12.75V12A2.25 2.25 0 0 1 4.5 9.75h15A2.25 2.25 0 0 1 21.75 12v.75m-8.69-6.44-2.12-2.12a1.5 1.5 0 0 0-1.061-.44H4.5A2.25 2.25 0 0 0 2.25 6v12a2.25 2.25 0 0 0 2.25 2.25h15A2.25 2.25 0 0 0 21.75 18V9a2.25 2.25 0 0 0-2.25-2.25h-5.379a1.5 1.5 0 0 1-1.06-.44Z" />
+                    </svg>
+
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                        stroke="currentColor" class="size-4 md:size-6 hover:bg-customcolor4 hover:rounded-full  cursor-pointer">
+                        <path stroke-linecap="round" stroke-linejoin="round"
+                            d="M3 13.125C3 12.504 3.504 12 4.125 12h2.25c.621 0 1.125.504 1.125 1.125v6.75C7.5 20.496 6.996 21 6.375 21h-2.25A1.125 1.125 0 0 1 3 19.875v-6.75ZM9.75 8.625c0-.621.504-1.125 1.125-1.125h2.25c.621 0 1.125.504 1.125 1.125v11.25c0 .621-.504 1.125-1.125 1.125h-2.25a1.125 1.125 0 0 1-1.125-1.125V8.625ZM16.5 4.125c0-.621.504-1.125 1.125-1.125h2.25C20.496 3 21 3.504 21 4.125v15.75c0 .621-.504 1.125-1.125 1.125h-2.25a1.125 1.125 0 0 1-1.125-1.125V4.125Z" />
+                    </svg>
+
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                        stroke="currentColor" class="size-4 md:size-6  hover:bg-customcolor4 hover:rounded-full cursor-pointer">
+                        <path stroke-linecap="round" stroke-linejoin="round"
+                            d="M21.75 6.75v10.5a2.25 2.25 0 0 1-2.25 2.25h-15a2.25 2.25 0 0 1-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0 0 19.5 4.5h-15a2.25 2.25 0 0 0-2.25 2.25m19.5 0v.243a2.25 2.25 0 0 1-1.07 1.916l-7.5 4.615a2.25 2.25 0 0 1-2.36 0L3.32 8.91a2.25 2.25 0 0 1-1.07-1.916V6.75" />
+                    </svg>
+
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                        stroke="currentColor" class="size-4 md:size-6  hover:bg-customcolor4 hover:rounded-full cursor-pointer">
+                        <path stroke-linecap="round" stroke-linejoin="round"
+                            d="M19.5 14.25v-2.625a3.375 3.375 0 0 0-3.375-3.375h-1.5A1.125 1.125 0 0 1 13.5 7.125v-1.5a3.375 3.375 0 0 0-3.375-3.375H8.25m2.25 0H5.625c-.621 0-1.125.504-1.125 1.125v17.25c0 .621.504 1.125 1.125 1.125h12.75c.621 0 1.125-.504 1.125-1.125V11.25a9 9 0 0 0-9-9Z" />
+                    </svg>
+                </div>
+
+                <div class="border-t-2 border-customcolor2 md:p-6 md:py-20 p-4">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                        stroke="currentColor" class="size-4 md:size-6  hover:bg-customcolor4 hover:rounded-full cursor-pointer">
+                        <path stroke-linecap="round" stroke-linejoin="round"
+                            d="M10.343 3.94c.09-.542.56-.94 1.11-.94h1.093c.55 0 1.02.398 1.11.94l.149.894c.07.424.384.764.78.93.398.164.855.142 1.205-.108l.737-.527a1.125 1.125 0 0 1 1.45.12l.773.774c.39.389.44 1.002.12 1.45l-.527.737c-.25.35-.272.806-.107 1.204.165.397.505.71.93.78l.893.15c.543.09.94.559.94 1.109v1.094c0 .55-.397 1.02-.94 1.11l-.894.149c-.424.07-.764.383-.929.78-.165.398-.143.854.107 1.204l.527.738c.32.447.269 1.06-.12 1.45l-.774.773a1.125 1.125 0 0 1-1.449.12l-.738-.527c-.35-.25-.806-.272-1.203-.107-.398.165-.71.505-.781.929l-.149.894c-.09.542-.56.94-1.11.94h-1.094c-.55 0-1.019-.398-1.11-.94l-.148-.894c-.071-.424-.384-.764-.781-.93-.398-.164-.854-.142-1.204.108l-.738.527c-.447.32-1.06.269-1.45-.12l-.773-.774a1.125 1.125 0 0 1-.12-1.45l.527-.737c.25-.35.272-.806.108-1.204-.165-.397-.506-.71-.93-.78l-.894-.15c-.542-.09-.94-.56-.94-1.109v-1.094c0-.55.398-1.02.94-1.11l.894-.149c.424-.07.765-.383.93-.78.165-.398.143-.854-.108-1.204l-.526-.738a1.125 1.125 0 0 1 .12-1.45l.773-.773a1.125 1.125 0 0 1 1.45-.12l.737.527c.35.25.807.272 1.204.107.397-.165.71-.505.78-.929l.15-.894Z" />
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M15 12a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z" />
+                    </svg>
+
+                </div>
+            </div>
+        </div>
+
+        <div class=" h-auto w-[85%] md:w-[94%]">
+            <nav class="h-20  bg-customcolor2 flex  justify-center place-content-center">
+                <div class="w-11/12 flex justify-between ">
+                    <div class="left flex my-auto  bg-customcolor3 rounded-md ">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor"
+                            class="md:size-5 size-3">
+                            <path fill-rule="evenodd"
+                                d="M9 3.5a5.5 5.5 0 1 0 0 11 5.5 5.5 0 0 0 0-11ZM2 9a7 7 0 1 1 12.452 4.391l3.328 3.329a.75.75 0 1 1-1.06 1.06l-3.329-3.328A7 7 0 0 1 2 9Z"
+                                clip-rule="evenodd" />
+                        </svg>
+
+                        <input
+                            class="bg-customcolor3 focus:border-2  focus:border-customcolor1 text-[8px] md:text-sm font-semibold h-fit rounded-md focus:outline-none pl-2 placeholder-current w-14 md:w-28 text-center text-customcolor1"
+                            placeholder="Search" type="Search" name="" id="">
+                    </div>
+
+                    <div class="right flex my-auto place-content-center space-x-6">
+                        <div class="prof flex space-x-2">
+                            <div class="text-end font-semibold place-content-center ">
+                                <p class="text-customcolor1 font-bold text-[8px] md:text-sm">James Micheal</p>
+                                <p class="text-customcolor3 text-[6px] md:text-xs ">Manager</p>
+                            </div>
+
+                            <div class="w-10 md:w-14 cursor-pointer  ">
+                                <img class="rounded-full "
+                                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR7SieSDnaZtBEq5mYqs-QZEOMuiED6aC6X0Q&s"
+                                    alt="">
+                            </div>
+
+                            <div class="my-auto cursor-pointer  ">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"
+                                    class="size-2 md:size-6">
+                                    <path fill-rule="evenodd"
+                                        d="M12.53 16.28a.75.75 0 0 1-1.06 0l-7.5-7.5a.75.75 0 0 1 1.06-1.06L12 14.69l6.97-6.97a.75.75 0 1 1 1.06 1.06l-7.5 7.5Z"
+                                        clip-rule="evenodd" />
+                                </svg>
+                            </div>
+
+                        </div>
+
+                        <div
+                            class="flex justify-start  md:justify-center my-auto border-l-2 border-l-customcolor1 pl-0 md:pl-2 w-24 space-x-2 md:space-x-4">
+                            <img src="assests/icons/output-onlinegiftools.gif" class="size-5 md:size-6 hover:bg-customcolor4 hover:rounded-full  cursor-pointer ml-8" alt="">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                                stroke="currentColor" class="size-5 md:size-6  hover:bg-customcolor4 hover:rounded-full   cursor-pointer">
+                                <path stroke-linecap="round" stroke-linejoin="round"
+                                    d="M15.75 9V5.25A2.25 2.25 0 0 0 13.5 3h-6a2.25 2.25 0 0 0-2.25 2.25v13.5A2.25 2.25 0 0 0 7.5 21h6a2.25 2.25 0 0 0 2.25-2.25V15m3 0 3-3m0 0-3-3m3 3H9" />
+                            </svg>
+
+                        </div>
+                    </div>
+                </div>
+            </nav>
+
+            <div class="maincontent h-auto w-auto p-10">
+                <div class="md:flex h-auto w-full justify-between">
+                    <div class="text-center md:text-start">
+                        <p class="text-base md:text-2xl font-semibold">Dashboard</p>
+                        <p class="text-xxs md:text-xs text-customcolor2 md:text-customcolor3 font-semibold">Mobile UX/UI
+                            Design course</p>
+                    </div>
+
+                    <div class="flex space-x-3 items-center pt-5 md:pt-0">
+                        <button
+                            class="flex border-2 text-xms md:text-xs md:p-3 p-2 font-semibold border-customcolor1 rounded-md h-fit hover:bg-customcolor1 hover:text-customcolor4 "><svg
+                                xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                                stroke="currentColor" class=" size-5 md:size-4 mx-1">
+                                <path stroke-linecap="round" stroke-linejoin="round"
+                                    d="m16.862 4.487 1.687-1.688a1.875 1.875 0 1 1 2.652 2.652L10.582 16.07a4.5 4.5 0 0 1-1.897 1.13L6 18l.8-2.685a4.5 4.5 0 0 1 1.13-1.897l8.932-8.931Zm0 0L19.5 7.125M18 14v4.75A2.25 2.25 0 0 1 15.75 21H5.25A2.25 2.25 0 0 1 3 18.75V8.25A2.25 2.25 0 0 1 5.25 6H10" />
+                            </svg>
+
+                            </svg> Manage Dashboard
+                        </button>
+                        <button
+                            class="flex bg-customcolor1 text-customcolor4 text-xms p-2 md:text-xs md:p-3 rounded-md h-fit hover:bg-customcolor4 hover:text-customcolor1 hover:border-2 hover:border-customcolor1"><svg
+                                xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                                stroke="currentColor" class="size-5 mx-1">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M12 4.5v15m7.5-7.5h-15" />
+                            </svg>
+                            <p class="my-[1px]">Create new Dashboard</p>
+                        </button>
+                    </div>
+
+                </div>
+
+                <div class="grid grid-cols-2 md:grid-rows-4 gap-4  py-10 md:grid-cols-4">
+                    <div class="bg-customcolor3 rounded-md py-10 px-2  md:p-4 flex space-x-2 md:space-x-4">
+
+                        <div class="icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                                stroke="currentColor" class=" size-10 bg-violet-400 rounded-full p-2">
+                                <path stroke-linecap="round" stroke-linejoin="round"
+                                    d="M15 19.128a9.38 9.38 0 0 0 2.625.372 9.337 9.337 0 0 0 4.121-.952 4.125 4.125 0 0 0-7.533-2.493M15 19.128v-.003c0-1.113-.285-2.16-.786-3.07M15 19.128v.106A12.318 12.318 0 0 1 8.624 21c-2.331 0-4.512-.645-6.374-1.766l-.001-.109a6.375 6.375 0 0 1 11.964-3.07M12 6.375a3.375 3.375 0 1 1-6.75 0 3.375 3.375 0 0 1 6.75 0Zm8.25 2.25a2.625 2.625 0 1 1-5.25 0 2.625 2.625 0 0 1 5.25 0Z" />
+                            </svg>
+
+                        </div>
+                        <div class="text">
+                            <p class="font-bold">62</p>
+                            <p class="text-xs text-customcolor2 font-semibold">Students</p>
+                        </div>
+                    </div>
+                    <div class="bg-customcolor3 rounded-md py-10 px-2  md:p-4 flex space-x-2 md:space-x-4">
+                        <div class="icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                                stroke="currentColor" class="size-10 bg-green-300 rounded-full p-2">
+                                <path stroke-linecap="round" stroke-linejoin="round"
+                                    d="M2.25 18 9 11.25l4.306 4.306a11.95 11.95 0 0 1 5.814-5.518l2.74-1.22m0 0-5.94-2.281m5.94 2.28-2.28 5.941" />
+                            </svg>
+
+                        </div>
+                        <div class="text">
+                            <p class="font-bold">6.8</p>
+                            <p class="text-xs md:text-start text-customcolor2 font-semibold">Average Mark</p>
+                        </div>
+                    </div>
+                    <div class="bg-customcolor3 rounded-md py-10 px-2  md:p-4 flex space-x-2 md:space-x-4">
+                        <div class="icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                                stroke="currentColor" class="size-10 bg-red-300 rounded-full p-2">
+                                <path stroke-linecap="round" stroke-linejoin="round"
+                                    d="M2.25 6 9 12.75l4.286-4.286a11.948 11.948 0 0 1 4.306 6.43l.776 2.898m0 0 3.182-5.511m-3.182 5.51-5.511-3.181" />
+                            </svg>
+
+                        </div>
+                        <div class="text">
+                            <p class="text-xs md:text-start text-customcolor2 font-semibold"><b
+                                    class="text-black text-base font-bold">9</b> (14%)</p>
+                            <p class="text-xs md:text-start text-customcolor2 font-semibold">Average Mark</p>
+                        </div>
+                    </div>
+                    <div class="bg-customcolor3 rounded-md py-10 px-2  md:p-4 flex space-x-2 md:space-x-4">
+                        <div class="icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                                stroke="currentColor" class="size-10 bg-blue-300 rounded-full p-2">
+                                <path stroke-linecap="round" stroke-linejoin="round"
+                                    d="M12 6.042A8.967 8.967 0 0 0 6 3.75c-1.052 0-2.062.18-3 .512v14.25A8.987 8.987 0 0 1 6 18c2.305 0 4.408.867 6 2.292m0-14.25a8.966 8.966 0 0 1 6-2.292c1.052 0 2.062.18 3 .512v14.25A8.987 8.987 0 0 0 18 18a8.967 8.967 0 0 0-6 2.292m0-14.25v14.25" />
+                            </svg>
+
+                        </div>
+                        <div class="text">
+                            <p class="font-bold">83%</p>
+                            <p class="text-xs md:text-start text-customcolor2 font-semibold">Finished homeworks</p>
+                        </div>
+                    </div>
+                    <div class="bg-customcolor3 col-span-2 row-span-3 rounded-md p-4">
+                        <p class="text-xs font-semibold text-customcolor2">The number of applied and left Students per
+                            month</p>
+                        <div
+                            class="chart w-full bg-customcolor2 rounded-md md:h-4/5 place-content-center text-center mt-2">
+                            <p class="font-bold text-customcolor1">Chart</p>
+                        </div>
+                    </div>
+                    <div class="bg-customcolor3 rounded-md col-span-2 md:col-span-1 row-span-4 p-4 space-y-5 ">
+                        <div
+                            class="text md:flex text-xs space-y-3 md:space-y-0  text-customcolor2 font-semibold justify-between">
+                            <p>Students by Average marks</p>
+                            <p class="flex">Descending <svg xmlns="http://www.w3.org/2000/svg" fill="none"
+                                    viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-3 m-auto ">
+                                    <path stroke-linecap="round" stroke-linejoin="round"
+                                        d="m19.5 8.25-7.5 7.5-7.5-7.5" />
+                                </svg>
+                            </p>
+                        </div>
+                        <hr>
+                        <div>
+                            <ul >
+                                <li class="flex justify-between my-5">
+                                    <div class="flex space-x-3">
+                                        <img src="assests/people/user1.jpg" class="w-8 rounded-full" alt="">
+                                        <p class="text-sm font-semibold my-auto">Atlas Young</p>
+                                    </div>
+                                    <div class="my-auto">
+                                        <p class="text-xs font-bold ">9.3</p>
+                                    </div>
+                                </li>
+                                <li class="flex justify-between my-5">
+                                    <div class="flex space-x-3">
+                                        <img src="assests/people/user2.jpg" class="w-8 rounded-full" alt="">
+                                        <p class="text-sm font-semibold my-auto">Frank Keller</p>
+                                    </div>
+                                    <div class="my-auto">
+                                        <p class="text-xs font-bold ">8.9</p>
+                                    </div>
+                                </li> 
+                                <li class="flex justify-between my-5">
+                                    <div class="flex space-x-3">
+                                        <img src="assests/people/user3.jpg" class="w-8 rounded-full" alt="">
+                                        <p class="text-sm font-semibold my-auto">Amira Shaffer</p>
+                                    </div>
+                                    <div class="my-auto">
+                                        <p class="text-xs font-bold ">8.3</p>
+                                    </div>
+                                </li> 
+                                <li class="flex justify-between my-5">
+                                    <div class="flex space-x-3">
+                                        <img src="assests/people/user4.jpg" class="w-8 rounded-full" alt="">
+                                        <p class="text-sm font-semibold my-auto">Seth Huang</p>
+                                    </div>
+                                    <div class="my-auto">
+                                        <p class="text-xs font-bold ">7.4</p>
+                                    </div>
+                                </li>
+                                <li class="flex justify-between my-5">
+                                    <div class="flex space-x-3">
+                                        <img src="assests/people/user5.jpg" class="w-8 rounded-full" alt="">
+                                        <p class="text-sm font-semibold my-auto">Chris Griffith</p>
+                                    </div>
+                                    <div class="my-auto">
+                                        <p class="text-xs font-bold ">6.9</p>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                        <hr>
+                        <div class="flex text-sm space-x-2 ">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="size-5">
+                                <path fill-rule="evenodd" d="M9.47 15.28a.75.75 0 0 0 1.06 0l4.25-4.25a.75.75 0 1 0-1.06-1.06L10 13.69 6.28 9.97a.75.75 0 0 0-1.06 1.06l4.25 4.25ZM5.22 6.03l4.25 4.25a.75.75 0 0 0 1.06 0l4.25-4.25a.75.75 0 0 0-1.06-1.06L10 8.69 6.28 4.97a.75.75 0 0 0-1.06 1.06Z" clip-rule="evenodd" /> 
+                              </svg> 
+                              <p class="font-semibold text-customcolor2">Load more</p>
+                              
+                        </div>
+
+                    </div>
+                    <div class="bg-customcolor3 rounded-md row-span-4   p-4">
+                        <p class="text-xs font-semibold text-customcolor2">Students type of studying</p>
+                        <div
+                            class="chart w-full bg-customcolor2 h-4/5 rounded-md md:h-5/6 place-content-center text-center mt-5">
+                            <p class="font-bold text-customcolor1">Chart</p>
+                        </div>
+                    </div>
+                    <div class="bg-customcolor3 rounded-md p-4 md:flex space-x-4">
+                        <div class="icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                                stroke="currentColor" class="size-10 bg-yellow-300 rounded-full p-2">
+                                <path stroke-linecap="round" stroke-linejoin="round"
+                                    d="M4.26 10.147a60.438 60.438 0 0 0-.491 6.347A48.62 48.62 0 0 1 12 20.904a48.62 48.62 0 0 1 8.232-4.41 60.46 60.46 0 0 0-.491-6.347m-15.482 0a50.636 50.636 0 0 0-2.658-.813A59.906 59.906 0 0 1 12 3.493a59.903 59.903 0 0 1 10.399 5.84c-.896.248-1.783.52-2.658.814m-15.482 0A50.717 50.717 0 0 1 12 13.489a50.702 50.702 0 0 1 7.74-3.342M6.75 15a.75.75 0 1 0 0-1.5.75.75 0 0 0 0 1.5Zm0 0v-3.675A55.378 55.378 0 0 1 12 8.443m-7.007 11.55A5.981 5.981 0 0 0 6.75 15.75v-1.5" />
+                            </svg>
+
+                        </div>
+                        <div class="text">
+                            <p class="font-bold">25</p>
+                            <p class="text-xs md:text-start text-customcolor2 font-semibold">Lections Left</p>
+                        </div>
+                    </div>
+                    <div class="bg-customcolor3 rounded-md p-4 md:flex space-x-4">
+                        <div class="icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                                stroke="currentColor" class="size-10 bg-green-300 rounded-full p-2">
+                                <path stroke-linecap="round" stroke-linejoin="round"
+                                    d="M12 6v6h4.5m4.5 0a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z" />
+                            </svg>
+
+
+                        </div>
+                        <div class="text">
+                            <p class="font-bold">139</p>
+                            <p class="text-xs md:text-start text-customcolor2 font-semibold">Hours spend on lectures</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <footer class="text-end w-[95%] text-sm font-semibold text-customcolor2">
+                Recreated on Codepen with Tailwind CSS
+            </footer>
+        </div>
+    </div>
+</body>
+
+</html>
